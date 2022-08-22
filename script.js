@@ -1,5 +1,5 @@
 
-function repeat() {
+function start() {
 
     let counter = 0
     let cardNumbers = prompt("Com quantas cartas deseja jogar? 4, 6, 8, 10, 12 ou 14?")
@@ -107,7 +107,7 @@ function repeat() {
 
         if(again === 'sim'){
             board.innerHTML = ''
-            repeat();
+            start();
         }else{
             alert('Obrigado por jogar!')
         }
